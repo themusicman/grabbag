@@ -64,8 +64,11 @@ npx skills add themusicman/grabbag -a codex
 | [blast-radius](skills/blast-radius) | [cursor/plugins `pstack/skills/blast-radius`](https://github.com/cursor/plugins/tree/df581122cde17e6e27686b5a448bde23e4ad4318/pstack/skills/blast-radius) |
 | [bro](skills/bro) | [cursor/plugins `pstack/skills/bro`](https://github.com/cursor/plugins/tree/99559f2f52047978602ef365589275831e76af07/pstack/skills/bro) |
 | [council](skills/council) | [t3dotgg/tstack `skills/council`](https://github.com/t3dotgg/tstack/tree/1085050f3baed1ac724caa4a8166145fb2ac88af/skills/council) |
+| [control-cli](skills/control-cli) | [cursor/plugins `cursor-team-kit/skills/control-cli`](https://github.com/cursor/plugins/tree/d018dc4d9161cc5bfa6be12fcf330445970a6b7c/cursor-team-kit/skills/control-cli) |
+| [control-ui](skills/control-ui) | [cursor/plugins `cursor-team-kit/skills/control-ui`](https://github.com/cursor/plugins/tree/d018dc4d9161cc5bfa6be12fcf330445970a6b7c/cursor-team-kit/skills/control-ui) |
 | [create-formal-verification-skill](skills/create-formal-verification-skill) | [cursor/plugins `pstack/skills/create-formal-verification-skill`](https://github.com/cursor/plugins/tree/34b1b7c96f09f81a21a6c78f65b7833f7dcb5b24/pstack/skills/create-formal-verification-skill) |
 | [create-verification-skill](skills/create-verification-skill) | [cursor/plugins `pstack/skills/create-verification-skill`](https://github.com/cursor/plugins/tree/c49b37a2c0e7bede60a71ad7322e3f12c337a3da/pstack/skills/create-verification-skill) |
+| [deslop](skills/deslop) | [cursor/plugins `cursor-team-kit/skills/deslop`](https://github.com/cursor/plugins/tree/b21ab167c8d6aad6e4d91bc0de429eedd49665ed/cursor-team-kit/skills/deslop) |
 | [figure-it-out](skills/figure-it-out) | [cursor/plugins `pstack/skills/figure-it-out`](https://github.com/cursor/plugins/tree/ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a/pstack/skills/figure-it-out) |
 | [how](skills/how) | [cursor/plugins `pstack/skills/how`](https://github.com/cursor/plugins/tree/ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a/pstack/skills/how) |
 | [in-your-own-words](skills/in-your-own-words) | [cursor/plugins `pstack/skills/in-your-own-words`](https://github.com/cursor/plugins/tree/dbf49813a39c1a5389c5e28cb8e4c1c2379e2454/pstack/skills/in-your-own-words) |

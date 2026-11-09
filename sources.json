@@ -63,6 +63,24 @@
     "modified": false
   },
   {
+    "name": "control-cli",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "cursor-team-kit/skills/control-cli",
+    "upstream_sha": "d018dc4d9161cc5bfa6be12fcf330445970a6b7c",
+    "local_path": "skills/control-cli",
+    "modified": false
+  },
+  {
+    "name": "control-ui",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "cursor-team-kit/skills/control-ui",
+    "upstream_sha": "d018dc4d9161cc5bfa6be12fcf330445970a6b7c",
+    "local_path": "skills/control-ui",
+    "modified": false
+  },
+  {
     "name": "council",
     "kind": "skill",
     "source_repo": "t3dotgg/tstack",
@@ -88,6 +106,15 @@
     "upstream_sha": "c49b37a2c0e7bede60a71ad7322e3f12c337a3da",
     "local_path": "skills/create-verification-skill",
     "modified": true
+  },
+  {
+    "name": "deslop",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "cursor-team-kit/skills/deslop",
+    "upstream_sha": "b21ab167c8d6aad6e4d91bc0de429eedd49665ed",
+    "local_path": "skills/deslop",
+    "modified": false
   },
   {
     "name": "figure-it-out",
