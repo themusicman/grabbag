@@ -1,0 +1,524 @@
+[
+  {
+    "name": "architect",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/architect",
+    "upstream_sha": "00b14f1df36b32a8dd1529324a3a459f6563b127",
+    "local_path": "skills/architect",
+    "modified": true
+  },
+  {
+    "name": "arena",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/arena",
+    "upstream_sha": "ab1f702ce8e8b6557edb56b09f52cde8bfb83f17",
+    "local_path": "skills/arena",
+    "modified": true
+  },
+  {
+    "name": "babysit-pr",
+    "kind": "skill",
+    "source_repo": "t3dotgg/tstack",
+    "source_path": "skills/babysit-pr",
+    "upstream_sha": "6efae364201abc9d9f07443e9caa461f42e51090",
+    "local_path": "skills/babysit-pr",
+    "modified": false
+  },
+  {
+    "name": "benchmark-checklist",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/benchmark-checklist",
+    "upstream_sha": "00b14f1df36b32a8dd1529324a3a459f6563b127",
+    "local_path": "skills/benchmark-checklist",
+    "modified": false
+  },
+  {
+    "name": "blast-radius",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/blast-radius",
+    "upstream_sha": "df581122cde17e6e27686b5a448bde23e4ad4318",
+    "local_path": "skills/blast-radius",
+    "modified": false
+  },
+  {
+    "name": "bro",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/bro",
+    "upstream_sha": "99559f2f52047978602ef365589275831e76af07",
+    "local_path": "skills/bro",
+    "modified": false
+  },
+  {
+    "name": "comment-sicko",
+    "kind": "agent",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/agents/comment-sicko.md",
+    "upstream_sha": "de2dba6ffa001bc3c97acf1f58bc7ab29d5fdc7a",
+    "local_path": "skills/no-comments/agents/comment-sicko.md",
+    "modified": false
+  },
+  {
+    "name": "control-cli",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "cursor-team-kit/skills/control-cli",
+    "upstream_sha": "d018dc4d9161cc5bfa6be12fcf330445970a6b7c",
+    "local_path": "skills/control-cli",
+    "modified": false
+  },
+  {
+    "name": "control-ui",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "cursor-team-kit/skills/control-ui",
+    "upstream_sha": "d018dc4d9161cc5bfa6be12fcf330445970a6b7c",
+    "local_path": "skills/control-ui",
+    "modified": false
+  },
+  {
+    "name": "council",
+    "kind": "skill",
+    "source_repo": "t3dotgg/tstack",
+    "source_path": "skills/council",
+    "upstream_sha": "1085050f3baed1ac724caa4a8166145fb2ac88af",
+    "local_path": "skills/council",
+    "modified": false
+  },
+  {
+    "name": "create-formal-verification-skill",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/create-formal-verification-skill",
+    "upstream_sha": "34b1b7c96f09f81a21a6c78f65b7833f7dcb5b24",
+    "local_path": "skills/create-formal-verification-skill",
+    "modified": true
+  },
+  {
+    "name": "create-verification-skill",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/create-verification-skill",
+    "upstream_sha": "c49b37a2c0e7bede60a71ad7322e3f12c337a3da",
+    "local_path": "skills/create-verification-skill",
+    "modified": true
+  },
+  {
+    "name": "deslop",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "cursor-team-kit/skills/deslop",
+    "upstream_sha": "b21ab167c8d6aad6e4d91bc0de429eedd49665ed",
+    "local_path": "skills/deslop",
+    "modified": false
+  },
+  {
+    "name": "figure-it-out",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/figure-it-out",
+    "upstream_sha": "ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a",
+    "local_path": "skills/figure-it-out",
+    "modified": false
+  },
+  {
+    "name": "how",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/how",
+    "upstream_sha": "ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a",
+    "local_path": "skills/how",
+    "modified": true
+  },
+  {
+    "name": "in-your-own-words",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/in-your-own-words",
+    "upstream_sha": "dbf49813a39c1a5389c5e28cb8e4c1c2379e2454",
+    "local_path": "skills/in-your-own-words",
+    "modified": false
+  },
+  {
+    "name": "interrogate",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/interrogate",
+    "upstream_sha": "ab1f702ce8e8b6557edb56b09f52cde8bfb83f17",
+    "local_path": "skills/interrogate",
+    "modified": true
+  },
+  {
+    "name": "ketchup",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/ketchup",
+    "upstream_sha": "bc1443790cc980d0ea857663260a831299884508",
+    "local_path": "skills/ketchup",
+    "modified": false
+  },
+  {
+    "name": "leaving-pr-comments",
+    "kind": "skill",
+    "source_repo": "t3dotgg/tstack",
+    "source_path": "skills/leaving-pr-comments",
+    "upstream_sha": "6efae364201abc9d9f07443e9caa461f42e51090",
+    "local_path": "skills/leaving-pr-comments",
+    "modified": false
+  },
+  {
+    "name": "maintain-formal-verification-skill",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/maintain-formal-verification-skill",
+    "upstream_sha": "7b353f78f6ec193bdbe48ed8059444eb09b6878e",
+    "local_path": "skills/maintain-formal-verification-skill",
+    "modified": true
+  },
+  {
+    "name": "maintain-verification-skill",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/maintain-verification-skill",
+    "upstream_sha": "6714489fa233263f00e419f6cfc4759b07c81056",
+    "local_path": "skills/maintain-verification-skill",
+    "modified": true
+  },
+  {
+    "name": "no-comments",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/no-comments",
+    "upstream_sha": "ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a",
+    "local_path": "skills/no-comments",
+    "modified": true
+  },
+  {
+    "name": "poteto-agent",
+    "kind": "agent",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/agents/poteto-agent.md",
+    "upstream_sha": "b93e8117880f695bc49ef7b1ef72c09bfcc7c1de",
+    "local_path": "skills/poteto-mode/agents/poteto-agent.md",
+    "modified": true
+  },
+  {
+    "name": "poteto-mode",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/poteto-mode",
+    "upstream_sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+    "local_path": "skills/poteto-mode",
+    "modified": true
+  },
+  {
+    "name": "principle-attack-the-premise",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-attack-the-premise",
+    "upstream_sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
+    "local_path": "skills/principle-attack-the-premise",
+    "modified": false
+  },
+  {
+    "name": "principle-boundary-discipline",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-boundary-discipline",
+    "upstream_sha": "d7cde2b84eadbcd6fd890302c876f4436ccb6d82",
+    "local_path": "skills/principle-boundary-discipline",
+    "modified": false
+  },
+  {
+    "name": "principle-build-the-lever",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-build-the-lever",
+    "upstream_sha": "00b14f1df36b32a8dd1529324a3a459f6563b127",
+    "local_path": "skills/principle-build-the-lever",
+    "modified": false
+  },
+  {
+    "name": "principle-encode-lessons-in-structure",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-encode-lessons-in-structure",
+    "upstream_sha": "08bd59b37834550f5e8fa0bb5e8852204a7534cf",
+    "local_path": "skills/principle-encode-lessons-in-structure",
+    "modified": false
+  },
+  {
+    "name": "principle-exhaust-the-design-space",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-exhaust-the-design-space",
+    "upstream_sha": "08bd59b37834550f5e8fa0bb5e8852204a7534cf",
+    "local_path": "skills/principle-exhaust-the-design-space",
+    "modified": false
+  },
+  {
+    "name": "principle-experience-first",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-experience-first",
+    "upstream_sha": "d7cde2b84eadbcd6fd890302c876f4436ccb6d82",
+    "local_path": "skills/principle-experience-first",
+    "modified": false
+  },
+  {
+    "name": "principle-explain-the-number",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-explain-the-number",
+    "upstream_sha": "ab1f702ce8e8b6557edb56b09f52cde8bfb83f17",
+    "local_path": "skills/principle-explain-the-number",
+    "modified": false
+  },
+  {
+    "name": "principle-fix-root-causes",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-fix-root-causes",
+    "upstream_sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
+    "local_path": "skills/principle-fix-root-causes",
+    "modified": false
+  },
+  {
+    "name": "principle-foundational-thinking",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-foundational-thinking",
+    "upstream_sha": "d7cde2b84eadbcd6fd890302c876f4436ccb6d82",
+    "local_path": "skills/principle-foundational-thinking",
+    "modified": false
+  },
+  {
+    "name": "principle-guard-the-context-window",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-guard-the-context-window",
+    "upstream_sha": "08bd59b37834550f5e8fa0bb5e8852204a7534cf",
+    "local_path": "skills/principle-guard-the-context-window",
+    "modified": false
+  },
+  {
+    "name": "principle-laziness-protocol",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-laziness-protocol",
+    "upstream_sha": "08bd59b37834550f5e8fa0bb5e8852204a7534cf",
+    "local_path": "skills/principle-laziness-protocol",
+    "modified": false
+  },
+  {
+    "name": "principle-make-operations-idempotent",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-make-operations-idempotent",
+    "upstream_sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
+    "local_path": "skills/principle-make-operations-idempotent",
+    "modified": false
+  },
+  {
+    "name": "principle-migrate-callers-then-delete-legacy-apis",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-migrate-callers-then-delete-legacy-apis",
+    "upstream_sha": "99743e9c151c8537cbbf1f98bb38f34ef3368453",
+    "local_path": "skills/principle-migrate-callers-then-delete-legacy-apis",
+    "modified": false
+  },
+  {
+    "name": "principle-minimize-reader-load",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-minimize-reader-load",
+    "upstream_sha": "00b14f1df36b32a8dd1529324a3a459f6563b127",
+    "local_path": "skills/principle-minimize-reader-load",
+    "modified": false
+  },
+  {
+    "name": "principle-model-the-domain",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-model-the-domain",
+    "upstream_sha": "00b14f1df36b32a8dd1529324a3a459f6563b127",
+    "local_path": "skills/principle-model-the-domain",
+    "modified": false
+  },
+  {
+    "name": "principle-never-block-on-the-human",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-never-block-on-the-human",
+    "upstream_sha": "00b14f1df36b32a8dd1529324a3a459f6563b127",
+    "local_path": "skills/principle-never-block-on-the-human",
+    "modified": false
+  },
+  {
+    "name": "principle-outcome-oriented-execution",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-outcome-oriented-execution",
+    "upstream_sha": "b0b9c7a0baf8b6aa1d00bf77d4101e577d4ba411",
+    "local_path": "skills/principle-outcome-oriented-execution",
+    "modified": false
+  },
+  {
+    "name": "principle-prove-it-works",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-prove-it-works",
+    "upstream_sha": "b0b9c7a0baf8b6aa1d00bf77d4101e577d4ba411",
+    "local_path": "skills/principle-prove-it-works",
+    "modified": false
+  },
+  {
+    "name": "principle-redesign-from-first-principles",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-redesign-from-first-principles",
+    "upstream_sha": "00b14f1df36b32a8dd1529324a3a459f6563b127",
+    "local_path": "skills/principle-redesign-from-first-principles",
+    "modified": false
+  },
+  {
+    "name": "principle-separate-before-serializing-shared-state",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-separate-before-serializing-shared-state",
+    "upstream_sha": "d7cde2b84eadbcd6fd890302c876f4436ccb6d82",
+    "local_path": "skills/principle-separate-before-serializing-shared-state",
+    "modified": false
+  },
+  {
+    "name": "principle-sequence-verifiable-units",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-sequence-verifiable-units",
+    "upstream_sha": "70b2dc8b4b85c8d5648624ca40d692c421fff32f",
+    "local_path": "skills/principle-sequence-verifiable-units",
+    "modified": false
+  },
+  {
+    "name": "principle-subtract-before-you-add",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-subtract-before-you-add",
+    "upstream_sha": "00b14f1df36b32a8dd1529324a3a459f6563b127",
+    "local_path": "skills/principle-subtract-before-you-add",
+    "modified": false
+  },
+  {
+    "name": "principle-test-behavior-not-implementation",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-test-behavior-not-implementation",
+    "upstream_sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
+    "local_path": "skills/principle-test-behavior-not-implementation",
+    "modified": false
+  },
+  {
+    "name": "principle-type-system-discipline",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/principle-type-system-discipline",
+    "upstream_sha": "99743e9c151c8537cbbf1f98bb38f34ef3368453",
+    "local_path": "skills/principle-type-system-discipline",
+    "modified": false
+  },
+  {
+    "name": "reflect",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/reflect",
+    "upstream_sha": "7054003c3723e82d099fb7620e3bc8d7d63eebc6",
+    "local_path": "skills/reflect",
+    "modified": true
+  },
+  {
+    "name": "setup-pstack",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/setup-pstack",
+    "upstream_sha": "ab1f702ce8e8b6557edb56b09f52cde8bfb83f17",
+    "local_path": "skills/setup-pstack",
+    "modified": true
+  },
+  {
+    "name": "show-me-your-work",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/show-me-your-work",
+    "upstream_sha": "ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a",
+    "local_path": "skills/show-me-your-work",
+    "modified": false
+  },
+  {
+    "name": "statechart",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/statechart",
+    "upstream_sha": "519d36aa98955bf680db01bcde5fdfba686dc901",
+    "local_path": "skills/statechart",
+    "modified": true
+  },
+  {
+    "name": "swarm",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/swarm",
+    "upstream_sha": "e73df471cd4bd918367e99f3dd9c51bd53ddf5f0",
+    "local_path": "skills/swarm",
+    "modified": true
+  },
+  {
+    "name": "tdd",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/tdd",
+    "upstream_sha": "b0b9c7a0baf8b6aa1d00bf77d4101e577d4ba411",
+    "local_path": "skills/tdd",
+    "modified": false
+  },
+  {
+    "name": "technical-writing",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/technical-writing",
+    "upstream_sha": "00b14f1df36b32a8dd1529324a3a459f6563b127",
+    "local_path": "skills/technical-writing",
+    "modified": false
+  },
+  {
+    "name": "typescript-best-practices",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/typescript-best-practices",
+    "upstream_sha": "0317eb8b858c991c57721358daaee19dbe8c814d",
+    "local_path": "skills/typescript-best-practices",
+    "modified": false
+  },
+  {
+    "name": "unslop",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/unslop",
+    "upstream_sha": "bc697d0a5a163cec979e362b601e36f5616083fd",
+    "local_path": "skills/unslop",
+    "modified": false
+  },
+  {
+    "name": "why",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/why",
+    "upstream_sha": "ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a",
+    "local_path": "skills/why",
+    "modified": true
+  }
+]
