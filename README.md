@@ -59,6 +59,7 @@ npx skills add themusicman/grabbag -a codex
 | --- | --- |
 | [architect](skills/architect) | [cursor/plugins `pstack/skills/architect`](https://github.com/cursor/plugins/tree/00b14f1df36b32a8dd1529324a3a459f6563b127/pstack/skills/architect) |
 | [arena](skills/arena) | [cursor/plugins `pstack/skills/arena`](https://github.com/cursor/plugins/tree/ab1f702ce8e8b6557edb56b09f52cde8bfb83f17/pstack/skills/arena) |
+| [automate-me](skills/automate-me) | [cursor/plugins `pstack/skills/automate-me`](https://github.com/cursor/plugins/tree/ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a/pstack/skills/automate-me) |
 | [babysit-pr](skills/babysit-pr) | [t3dotgg/tstack `skills/babysit-pr`](https://github.com/t3dotgg/tstack/tree/6efae364201abc9d9f07443e9caa461f42e51090/skills/babysit-pr) |
 | [benchmark-checklist](skills/benchmark-checklist) | [cursor/plugins `pstack/skills/benchmark-checklist`](https://github.com/cursor/plugins/tree/00b14f1df36b32a8dd1529324a3a459f6563b127/pstack/skills/benchmark-checklist) |
 | [blast-radius](skills/blast-radius) | [cursor/plugins `pstack/skills/blast-radius`](https://github.com/cursor/plugins/tree/df581122cde17e6e27686b5a448bde23e4ad4318/pstack/skills/blast-radius) |
@@ -66,6 +67,7 @@ npx skills add themusicman/grabbag -a codex
 | [council](skills/council) | [t3dotgg/tstack `skills/council`](https://github.com/t3dotgg/tstack/tree/1085050f3baed1ac724caa4a8166145fb2ac88af/skills/council) |
 | [control-cli](skills/control-cli) | [cursor/plugins `cursor-team-kit/skills/control-cli`](https://github.com/cursor/plugins/tree/d018dc4d9161cc5bfa6be12fcf330445970a6b7c/cursor-team-kit/skills/control-cli) |
 | [control-ui](skills/control-ui) | [cursor/plugins `cursor-team-kit/skills/control-ui`](https://github.com/cursor/plugins/tree/d018dc4d9161cc5bfa6be12fcf330445970a6b7c/cursor-team-kit/skills/control-ui) |
+| [correct](skills/correct) | [cursor/plugins `pstack/skills/correct`](https://github.com/cursor/plugins/tree/e5136d82418d2db3165ea1050d17577cd618cc05/pstack/skills/correct) |
 | [create-formal-verification-skill](skills/create-formal-verification-skill) | [cursor/plugins `pstack/skills/create-formal-verification-skill`](https://github.com/cursor/plugins/tree/34b1b7c96f09f81a21a6c78f65b7833f7dcb5b24/pstack/skills/create-formal-verification-skill) |
 | [create-verification-skill](skills/create-verification-skill) | [cursor/plugins `pstack/skills/create-verification-skill`](https://github.com/cursor/plugins/tree/c49b37a2c0e7bede60a71ad7322e3f12c337a3da/pstack/skills/create-verification-skill) |
 | [deslop](skills/deslop) | [cursor/plugins `cursor-team-kit/skills/deslop`](https://github.com/cursor/plugins/tree/b21ab167c8d6aad6e4d91bc0de429eedd49665ed/cursor-team-kit/skills/deslop) |
@@ -74,10 +76,13 @@ npx skills add themusicman/grabbag -a codex
 | [in-your-own-words](skills/in-your-own-words) | [cursor/plugins `pstack/skills/in-your-own-words`](https://github.com/cursor/plugins/tree/dbf49813a39c1a5389c5e28cb8e4c1c2379e2454/pstack/skills/in-your-own-words) |
 | [interrogate](skills/interrogate) | [cursor/plugins `pstack/skills/interrogate`](https://github.com/cursor/plugins/tree/ab1f702ce8e8b6557edb56b09f52cde8bfb83f17/pstack/skills/interrogate) |
 | [ketchup](skills/ketchup) | [cursor/plugins `pstack/skills/ketchup`](https://github.com/cursor/plugins/tree/bc1443790cc980d0ea857663260a831299884508/pstack/skills/ketchup) |
+| [ketchup-video](skills/ketchup-video) | [cursor/plugins `pstack/skills/ketchup-video`](https://github.com/cursor/plugins/tree/ab1f702ce8e8b6557edb56b09f52cde8bfb83f17/pstack/skills/ketchup-video) |
 | [leaving-pr-comments](skills/leaving-pr-comments) | [t3dotgg/tstack `skills/leaving-pr-comments`](https://github.com/t3dotgg/tstack/tree/6efae364201abc9d9f07443e9caa461f42e51090/skills/leaving-pr-comments) |
 | [maintain-formal-verification-skill](skills/maintain-formal-verification-skill) | [cursor/plugins `pstack/skills/maintain-formal-verification-skill`](https://github.com/cursor/plugins/tree/7b353f78f6ec193bdbe48ed8059444eb09b6878e/pstack/skills/maintain-formal-verification-skill) |
 | [maintain-verification-skill](skills/maintain-verification-skill) | [cursor/plugins `pstack/skills/maintain-verification-skill`](https://github.com/cursor/plugins/tree/6714489fa233263f00e419f6cfc4759b07c81056/pstack/skills/maintain-verification-skill) |
+| [make-bot-ui](skills/make-bot-ui) | [cursor/plugins `pstack/skills/make-bot-ui`](https://github.com/cursor/plugins/tree/a968159326d1fc6b7d483491ec5c457986a20af2/pstack/skills/make-bot-ui) |
 | [no-comments](skills/no-comments) | [cursor/plugins `pstack/skills/no-comments`](https://github.com/cursor/plugins/tree/ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a/pstack/skills/no-comments) |
+| [poteto-help](skills/poteto-help) | [cursor/plugins `pstack/skills/poteto-help`](https://github.com/cursor/plugins/tree/ab1f702ce8e8b6557edb56b09f52cde8bfb83f17/pstack/skills/poteto-help) |
 | [poteto-mode](skills/poteto-mode) | [cursor/plugins `pstack/skills/poteto-mode`](https://github.com/cursor/plugins/tree/c742dd61706fbacc1b95f1a20b7b988cf096ce6c/pstack/skills/poteto-mode) |
 | [principle-attack-the-premise](skills/principle-attack-the-premise) | [cursor/plugins `pstack/skills/principle-attack-the-premise`](https://github.com/cursor/plugins/tree/e5136d82418d2db3165ea1050d17577cd618cc05/pstack/skills/principle-attack-the-premise) |
 | [principle-boundary-discipline](skills/principle-boundary-discipline) | [cursor/plugins `pstack/skills/principle-boundary-discipline`](https://github.com/cursor/plugins/tree/d7cde2b84eadbcd6fd890302c876f4436ccb6d82/pstack/skills/principle-boundary-discipline) |
@@ -103,12 +108,15 @@ npx skills add themusicman/grabbag -a codex
 | [principle-subtract-before-you-add](skills/principle-subtract-before-you-add) | [cursor/plugins `pstack/skills/principle-subtract-before-you-add`](https://github.com/cursor/plugins/tree/00b14f1df36b32a8dd1529324a3a459f6563b127/pstack/skills/principle-subtract-before-you-add) |
 | [principle-test-behavior-not-implementation](skills/principle-test-behavior-not-implementation) | [cursor/plugins `pstack/skills/principle-test-behavior-not-implementation`](https://github.com/cursor/plugins/tree/e5136d82418d2db3165ea1050d17577cd618cc05/pstack/skills/principle-test-behavior-not-implementation) |
 | [principle-type-system-discipline](skills/principle-type-system-discipline) | [cursor/plugins `pstack/skills/principle-type-system-discipline`](https://github.com/cursor/plugins/tree/99743e9c151c8537cbbf1f98bb38f34ef3368453/pstack/skills/principle-type-system-discipline) |
+| [recall](skills/recall) | [cursor/plugins `pstack/skills/recall`](https://github.com/cursor/plugins/tree/ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a/pstack/skills/recall) |
 | [reflect](skills/reflect) | [cursor/plugins `pstack/skills/reflect`](https://github.com/cursor/plugins/tree/7054003c3723e82d099fb7620e3bc8d7d63eebc6/pstack/skills/reflect) |
 | [setup-pstack](skills/setup-pstack) | [cursor/plugins `pstack/skills/setup-pstack`](https://github.com/cursor/plugins/tree/ab1f702ce8e8b6557edb56b09f52cde8bfb83f17/pstack/skills/setup-pstack) |
+| [sharpen](skills/sharpen) | [cursor/plugins `pstack/skills/sharpen`](https://github.com/cursor/plugins/tree/88d47514b82e7c44f00f2b2a72ff6dd12158038c/pstack/skills/sharpen) |
 | [show-me-your-work](skills/show-me-your-work) | [cursor/plugins `pstack/skills/show-me-your-work`](https://github.com/cursor/plugins/tree/ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a/pstack/skills/show-me-your-work) |
 | [statechart](skills/statechart) | [cursor/plugins `pstack/skills/statechart`](https://github.com/cursor/plugins/tree/519d36aa98955bf680db01bcde5fdfba686dc901/pstack/skills/statechart) |
 | [swarm](skills/swarm) | [cursor/plugins `pstack/skills/swarm`](https://github.com/cursor/plugins/tree/e73df471cd4bd918367e99f3dd9c51bd53ddf5f0/pstack/skills/swarm) |
 | [tdd](skills/tdd) | [cursor/plugins `pstack/skills/tdd`](https://github.com/cursor/plugins/tree/b0b9c7a0baf8b6aa1d00bf77d4101e577d4ba411/pstack/skills/tdd) |
+| [teach](skills/teach) | [cursor/plugins `pstack/skills/teach`](https://github.com/cursor/plugins/tree/d7cde2b84eadbcd6fd890302c876f4436ccb6d82/pstack/skills/teach) |
 | [technical-writing](skills/technical-writing) | [cursor/plugins `pstack/skills/technical-writing`](https://github.com/cursor/plugins/tree/00b14f1df36b32a8dd1529324a3a459f6563b127/pstack/skills/technical-writing) |
 | [typescript-best-practices](skills/typescript-best-practices) | [cursor/plugins `pstack/skills/typescript-best-practices`](https://github.com/cursor/plugins/tree/0317eb8b858c991c57721358daaee19dbe8c814d/pstack/skills/typescript-best-practices) |
 | [unslop](skills/unslop) | [cursor/plugins `pstack/skills/unslop`](https://github.com/cursor/plugins/tree/bc697d0a5a163cec979e362b601e36f5616083fd/pstack/skills/unslop) |
