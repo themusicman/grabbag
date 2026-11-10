@@ -18,6 +18,15 @@
     "modified": true
   },
   {
+    "name": "automate-me",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/automate-me",
+    "upstream_sha": "ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a",
+    "local_path": "skills/automate-me",
+    "modified": true
+  },
+  {
     "name": "babysit-pr",
     "kind": "skill",
     "source_repo": "t3dotgg/tstack",
@@ -78,6 +87,15 @@
     "source_path": "cursor-team-kit/skills/control-ui",
     "upstream_sha": "d018dc4d9161cc5bfa6be12fcf330445970a6b7c",
     "local_path": "skills/control-ui",
+    "modified": false
+  },
+  {
+    "name": "correct",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/correct",
+    "upstream_sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
+    "local_path": "skills/correct",
     "modified": false
   },
   {
@@ -162,6 +180,15 @@
     "modified": false
   },
   {
+    "name": "ketchup-video",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/ketchup-video",
+    "upstream_sha": "ab1f702ce8e8b6557edb56b09f52cde8bfb83f17",
+    "local_path": "skills/ketchup-video",
+    "modified": false
+  },
+  {
     "name": "leaving-pr-comments",
     "kind": "skill",
     "source_repo": "t3dotgg/tstack",
@@ -189,6 +216,15 @@
     "modified": true
   },
   {
+    "name": "make-bot-ui",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/make-bot-ui",
+    "upstream_sha": "a968159326d1fc6b7d483491ec5c457986a20af2",
+    "local_path": "skills/make-bot-ui",
+    "modified": false
+  },
+  {
     "name": "no-comments",
     "kind": "skill",
     "source_repo": "cursor/plugins",
@@ -204,6 +240,15 @@
     "source_path": "pstack/agents/poteto-agent.md",
     "upstream_sha": "b93e8117880f695bc49ef7b1ef72c09bfcc7c1de",
     "local_path": "skills/poteto-mode/agents/poteto-agent.md",
+    "modified": true
+  },
+  {
+    "name": "poteto-help",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/poteto-help",
+    "upstream_sha": "ab1f702ce8e8b6557edb56b09f52cde8bfb83f17",
+    "local_path": "skills/poteto-help",
     "modified": true
   },
   {
@@ -432,6 +477,15 @@
     "modified": false
   },
   {
+    "name": "recall",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/recall",
+    "upstream_sha": "ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a",
+    "local_path": "skills/recall",
+    "modified": true
+  },
+  {
     "name": "reflect",
     "kind": "skill",
     "source_repo": "cursor/plugins",
@@ -448,6 +502,15 @@
     "upstream_sha": "ab1f702ce8e8b6557edb56b09f52cde8bfb83f17",
     "local_path": "skills/setup-pstack",
     "modified": true
+  },
+  {
+    "name": "sharpen",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/sharpen",
+    "upstream_sha": "88d47514b82e7c44f00f2b2a72ff6dd12158038c",
+    "local_path": "skills/sharpen",
+    "modified": false
   },
   {
     "name": "show-me-your-work",
@@ -483,6 +546,15 @@
     "source_path": "pstack/skills/tdd",
     "upstream_sha": "b0b9c7a0baf8b6aa1d00bf77d4101e577d4ba411",
     "local_path": "skills/tdd",
+    "modified": false
+  },
+  {
+    "name": "teach",
+    "kind": "skill",
+    "source_repo": "cursor/plugins",
+    "source_path": "pstack/skills/teach",
+    "upstream_sha": "d7cde2b84eadbcd6fd890302c876f4436ccb6d82",
+    "local_path": "skills/teach",
     "modified": false
   },
   {
