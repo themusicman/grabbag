@@ -14,7 +14,7 @@ This skill orchestrates three others: an inline mining pass (see step 1), Cursor
 
 ### 0. Check for an existing skill
 
-Look recursively for `.cursor/skills/**/*-mode/SKILL.md` and `~/.cursor/skills/*-mode/SKILL.md` matching the user's handle. Mode skills can live in a personal category directory (`.cursor/skills/<handle>/`), not only at the top level. Also search `.agents/skills/`, `.claude/skills/`, and `.grok/skills/` the same way, in the project and in the harness's personal skill directory. If one exists, confirm intent with `AskQuestion` (unless they already said "update my skill" or similar):
+Look recursively for `.cursor/skills/**/*-mode/SKILL.md` and `~/.cursor/skills/*-mode/SKILL.md` matching the user's handle. Mode skills can live in a personal category directory (`.cursor/skills/<handle>/`), not only at the top level. Also search `.agents/skills/`, `.claude/skills/`, and `.grok/skills/` the same way, in the project and in the harness's personal skill directory. If one exists, confirm intent with `AskQuestion` (unless they already said "update my skill" or similar). If AskQuestion is unavailable, ask in the conversation with the same options:
 
 - Update the existing skill (default for repeat runs)
 - Start fresh (rare, ask why before doing it)
