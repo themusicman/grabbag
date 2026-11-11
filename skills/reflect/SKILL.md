@@ -20,9 +20,11 @@ ls -t <agent-transcripts>/*.jsonl <agent-transcripts>/*/*.jsonl <agent-transcrip
 
 That covers the legacy flat (`<id>.jsonl`), current nested (`<id>/<id>.jsonl`), and subagent (`<parent>/subagents/<child>.jsonl`) layouts. For each candidate, read the first JSONL line. Take the file whose `message.content[0].text` contains the conversation's opening user prompt. If none matches, pass a tight digest of the session instead.
 
+On Amp, there is no `agent-transcripts/` directory, and `Task` subagents cannot call `read_thread`, so skip the lookup and always pass a digest. Include the user's messages and corrections verbatim, the `SKILL.md` path of each skill loaded with the `skill` tool, and the tool calls that failed, with their errors.
+
 ## 2. Spawn three reviewers in parallel
 
-One message, three `Task` calls, `subagent_type: generalPurpose`, agent mode (`readonly: false`). Reviewers need MCP access to look up the tickets, chat threads, and observability traces the transcript references, and readonly strips MCPs. If this harness has no Cursor Task tool, or it rejects `subagent_type`, do that work in this session or with the harness's own subagent tool. Keep the same prompt and defaults. Ignore Cursor-only fields such as `subagent_type`, `environment`, and model slugs the harness rejects.
+One message, three `Task` calls, `subagent_type: generalPurpose`, agent mode (`readonly: false`). Reviewers need MCP access to look up the tickets, chat threads, and observability traces the transcript references, and readonly strips MCPs. If this harness has no Cursor Task tool, or it rejects `subagent_type`, do that work in this session or with the harness's own subagent tool. Keep the same prompt and defaults. Ignore Cursor-only fields such as `subagent_type`, `environment`, and model slugs the harness rejects. On Amp, call `Task` with only `description` and `prompt`, here and in step 3. Omit `subagent_type`, `readonly`, `environment`, and `model`, and skip the `pstack-models.mdc` lookup below.
 
 Each reviewer and the synthesizer name a role line in the `pstack-models.mdc` rule and a default. Look for the `pstack-models.mdc` rule at `~/.cursor/rules/pstack-models.mdc`, then at `~/.pstack/pstack-models.mdc`. Set `model` to that line's value, or to the default if the rule or the line is missing. Leave `model` unset when the value is `auto` or `inherit-parent`. If the Task tool rejects a slug, use the default and say so. If it rejects the default, use the closest valid slug of the same family from its error message. Pick each subagent's reasoning level and fast or standard speed for the job, per the Subagents section of the **poteto-mode** skill.
 
@@ -56,6 +58,8 @@ Follow each approved row's Routing exactly:
 - Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to Cursor's built-in `create-skill` skill and run its draft / test / iterate loop.
 - `tune description: <skill path>` (the skill exists but didn't trigger when it should have): hand to `create-skill` and run its description-optimization loop.
 - `new skill via create-skill: <kebab-name>`: hand creation to `create-skill`. Do not invent the shape ad hoc.
+
+On Amp, which has no `create-skill`, load the `building-skills` skill for the last three routings instead.
 
 If your environment ships a SKILL.md validator, run it on every touched skill before declaring done.
 
