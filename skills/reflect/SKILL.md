@@ -20,7 +20,7 @@ ls -t <agent-transcripts>/*.jsonl <agent-transcripts>/*/*.jsonl <agent-transcrip
 
 That covers the legacy flat (`<id>.jsonl`), current nested (`<id>/<id>.jsonl`), and subagent (`<parent>/subagents/<child>.jsonl`) layouts. For each candidate, read the first JSONL line. Take the file whose `message.content[0].text` contains the conversation's opening user prompt. If none matches, pass a tight digest of the session instead.
 
-On Amp, there is no `agent-transcripts/` directory, and `Task` subagents cannot call `read_thread`, so skip the lookup and always pass a digest. Include the user's messages and corrections verbatim, the `SKILL.md` path of each skill loaded with the `skill` tool, and the tool calls that failed, with their errors.
+On Amp, there is no `agent-transcripts/` directory, and `Task` subagents cannot call `read_thread`, so skip the lookup and always pass a digest. Include the user's messages and corrections verbatim, each `SKILL.md` path loaded with the `skill` tool under a `Loaded with the skill tool:` heading, and the tool calls that failed, with their errors.
 
 ## 2. Spawn three reviewers in parallel
 
@@ -38,7 +38,7 @@ Pass each template verbatim, substituting the transcript path or digest where ma
 
 ## 3. Synthesize
 
-One `Task` call, `subagent_type: generalPurpose`, `model` from the `reflect judgment, divergent, synthesizer` line (default `claude-opus-5-5-xhigh`), agent mode (`readonly: false`). It spot-verifies citations through MCP, and readonly strips MCPs. Pass `references/synthesizer.md` verbatim, with each reviewer's full output inlined where marked. It returns an Accepted / Rejected / Backlog list.
+One `Task` call, `subagent_type: generalPurpose`, `model` from the `reflect judgment, divergent, synthesizer` line (default `claude-opus-5-5-xhigh`), agent mode (`readonly: false`). It spot-verifies citations through MCP, and readonly strips MCPs. Pass `references/synthesizer.md` verbatim, with each reviewer's full output inlined where marked. Replace `<SKILL_TOOL_PATHS>` with the paths under `Loaded with the skill tool:`, or with `none` when that heading is absent or empty. It returns an Accepted / Rejected / Backlog list.
 
 ## 4. Structural enforcement check
 
