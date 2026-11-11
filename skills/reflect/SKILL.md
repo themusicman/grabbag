@@ -46,7 +46,7 @@ On Amp, run each reviewer as a child thread instead of a `Task` subagent. Child 
 
   > When you finish, call `send_thread_message` with thread `<PARENT_THREAD_ID>`. The message is the line `reflect <LENS> findings: <N>`, then your numbered list exactly as specified above, with nothing after the first line when N is 0. This replaces any default request for a short reply. End with the same text as your final response. Do the review yourself: create no threads, message no other thread, and edit no files.
 
-After the three calls, tell the user that three reviewers are running and their findings will arrive in this thread, and end the turn. Each child's reply arrives as a message from its thread and starts a new turn, so do not poll with `wait_for_threads`. Start step 3 when all three have arrived. If a child settles without replying, read its final response with `read_thread`. If `create_thread` is unavailable, run the reviewers as `Task` subagents and pass a digest, because subagents cannot call `read_thread`.
+After the three calls, tell the user that three reviewers are running and their findings will arrive in this thread, and end the turn. Each child's reply arrives as a message from its thread and starts a new turn, so do not poll with `wait_for_threads`. On each later turn, count the `reflect <lens> findings` replies in this thread and do not start reviewers again. While fewer than three lenses have replied, say which lenses are still pending and end the turn again. Start step 3 when all three have arrived. If a child settles without replying, read its final response with `read_thread`. If `create_thread` is unavailable, run the reviewers as `Task` subagents and pass a digest, because subagents cannot call `read_thread`.
 
 ## 3. Synthesize
 
