@@ -2,7 +2,7 @@
 
 Curated agent skills you can install with the [skills CLI](https://github.com/vercel-labs/skills).
 
-Each skill lives at `skills/<name>/`. `sources.json` records the upstream repo, path, and commit for every skill and agent. `NOTICE` holds the upstream MIT licenses.
+Each skill lives at `skills/<name>/`. Skills vendored from [mattpocock/skills](https://github.com/mattpocock/skills) live one level deeper, at `skills/mattpocock/<name>/`; the skills CLI finds them there. `sources.json` records the upstream repo, path, and commit for every skill and agent. `NOTICE` holds the upstream MIT licenses.
 
 ## Install
 
@@ -121,6 +121,37 @@ npx skills add themusicman/grabbag -a codex
 | [typescript-best-practices](skills/typescript-best-practices) | [cursor/plugins `pstack/skills/typescript-best-practices`](https://github.com/cursor/plugins/tree/0317eb8b858c991c57721358daaee19dbe8c814d/pstack/skills/typescript-best-practices) |
 | [unslop](skills/unslop) | [cursor/plugins `pstack/skills/unslop`](https://github.com/cursor/plugins/tree/bc697d0a5a163cec979e362b601e36f5616083fd/pstack/skills/unslop) |
 | [why](skills/why) | [cursor/plugins `pstack/skills/why`](https://github.com/cursor/plugins/tree/ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a/pstack/skills/why) |
+| [ask-matt](skills/mattpocock/ask-matt) | [mattpocock/skills `skills/engineering/ask-matt`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/ask-matt) |
+| [code-review](skills/mattpocock/code-review) | [mattpocock/skills `skills/engineering/code-review`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/code-review) |
+| [codebase-design](skills/mattpocock/codebase-design) | [mattpocock/skills `skills/engineering/codebase-design`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/codebase-design) |
+| [diagnosing-bugs](skills/mattpocock/diagnosing-bugs) | [mattpocock/skills `skills/engineering/diagnosing-bugs`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/diagnosing-bugs) |
+| [domain-modeling](skills/mattpocock/domain-modeling) | [mattpocock/skills `skills/engineering/domain-modeling`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/domain-modeling) |
+| [git-guardrails-claude-code](skills/mattpocock/git-guardrails-claude-code) | [mattpocock/skills `skills/misc/git-guardrails-claude-code`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/misc/git-guardrails-claude-code) |
+| [grill-me](skills/mattpocock/grill-me) | [mattpocock/skills `skills/productivity/grill-me`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grill-me) |
+| [grill-with-docs](skills/mattpocock/grill-with-docs) | [mattpocock/skills `skills/engineering/grill-with-docs`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/grill-with-docs) |
+| [grilling](skills/mattpocock/grilling) | [mattpocock/skills `skills/productivity/grilling`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grilling) |
+| [handoff](skills/mattpocock/handoff) | [mattpocock/skills `skills/productivity/handoff`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/handoff) |
+| [implement](skills/mattpocock/implement) | [mattpocock/skills `skills/engineering/implement`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/implement) |
+| [implement-spec](skills/mattpocock/implement-spec) | [mattpocock/skills `skills/engineering/implement-spec`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/implement-spec) |
+| [improve-codebase-architecture](skills/mattpocock/improve-codebase-architecture) | [mattpocock/skills `skills/engineering/improve-codebase-architecture`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/improve-codebase-architecture) |
+| [migrate-to-shoehorn](skills/mattpocock/migrate-to-shoehorn) | [mattpocock/skills `skills/misc/migrate-to-shoehorn`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/misc/migrate-to-shoehorn) |
+| [mp-tdd](skills/mattpocock/mp-tdd) | [mattpocock/skills `skills/engineering/tdd`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/tdd) |
+| [mp-teach](skills/mattpocock/mp-teach) | [mattpocock/skills `skills/productivity/teach`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/teach) |
+| [pr](skills/mattpocock/pr) | [mattpocock/skills `skills/engineering/pr`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/pr) |
+| [prototype](skills/mattpocock/prototype) | [mattpocock/skills `skills/engineering/prototype`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/prototype) |
+| [research](skills/mattpocock/research) | [mattpocock/skills `skills/engineering/research`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/research) |
+| [retro](skills/mattpocock/retro) | [mattpocock/skills `skills/engineering/retro`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/retro) |
+| [scaffold-exercises](skills/mattpocock/scaffold-exercises) | [mattpocock/skills `skills/misc/scaffold-exercises`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/misc/scaffold-exercises) |
+| [setup-matt-pocock-skills](skills/mattpocock/setup-matt-pocock-skills) | [mattpocock/skills `skills/engineering/setup-matt-pocock-skills`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/setup-matt-pocock-skills) |
+| [setup-pre-commit](skills/mattpocock/setup-pre-commit) | [mattpocock/skills `skills/misc/setup-pre-commit`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/misc/setup-pre-commit) |
+| [to-questionnaire](skills/mattpocock/to-questionnaire) | [mattpocock/skills `skills/productivity/to-questionnaire`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/to-questionnaire) |
+| [to-spec](skills/mattpocock/to-spec) | [mattpocock/skills `skills/engineering/to-spec`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/to-spec) |
+| [to-tickets](skills/mattpocock/to-tickets) | [mattpocock/skills `skills/engineering/to-tickets`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/to-tickets) |
+| [triage](skills/mattpocock/triage) | [mattpocock/skills `skills/engineering/triage`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/triage) |
+| [wait-what](skills/mattpocock/wait-what) | [mattpocock/skills `skills/productivity/wait-what`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/wait-what) |
+| [wayfinder](skills/mattpocock/wayfinder) | [mattpocock/skills `skills/engineering/wayfinder`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/wayfinder) |
+| [wizard](skills/mattpocock/wizard) | [mattpocock/skills `skills/engineering/wizard`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/wizard) |
+| [writing-for-agents](skills/mattpocock/writing-for-agents) | [mattpocock/skills `skills/productivity/writing-for-agents`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/writing-for-agents) |
 
 ## Agents
 
