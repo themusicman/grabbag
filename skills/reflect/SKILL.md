@@ -44,9 +44,9 @@ On Amp, run each reviewer as a child thread instead of a `Task` subagent. Child 
 - Set `agent_mode` to the Amp model key of the same family as the role's model (for example `anthropic/claude-opus-5-5` or `xai/grok-4.7`; `list_agent_modes` lists them), or to this thread's mode when none matches. The Cursor slugs in the table do not apply.
 - The prompt is the template with the thread URL in place of `<ABSOLUTE_PATH>`, followed by this reply block, with `<LENS>` (`judgment`, `tooling`, or `divergent`) and `<PARENT_THREAD_ID>` (this thread's ID) filled in:
 
-  > When you finish, call `send_thread_message` with thread `<PARENT_THREAD_ID>`. The message is the line `reflect <LENS> findings: <N>`, then your numbered list exactly as specified above, with nothing after the first line when N is 0. End with the same text as your final response. Do the review yourself: create no threads, message no other thread, and edit no files.
+  > When you finish, call `send_thread_message` with thread `<PARENT_THREAD_ID>`. The message is the line `reflect <LENS> findings: <N>`, then your numbered list exactly as specified above, with nothing after the first line when N is 0. This replaces any default request for a short reply. End with the same text as your final response. Do the review yourself: create no threads, message no other thread, and edit no files.
 
-After the three calls, tell the user that three reviewers are running and their findings will arrive in this thread. Each child's reply arrives as a message from its thread. Wait for all three before step 3. If a child settles without replying, read its final response with `read_thread`. If `create_thread` is unavailable, run the reviewers as `Task` subagents and pass a digest, because subagents cannot call `read_thread`.
+After the three calls, tell the user that three reviewers are running and their findings will arrive in this thread, and end the turn. Each child's reply arrives as a message from its thread and starts a new turn, so do not poll with `wait_for_threads`. Start step 3 when all three have arrived. If a child settles without replying, read its final response with `read_thread`. If `create_thread` is unavailable, run the reviewers as `Task` subagents and pass a digest, because subagents cannot call `read_thread`.
 
 ## 3. Synthesize
 
