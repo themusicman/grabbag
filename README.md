@@ -41,6 +41,15 @@ Agent names for the harnesses this repo targets:
 | OpenCode | `opencode` | `.agents/skills/` |
 | Codex | `codex` | `.agents/skills/` |
 
+### HumanLayer skills
+
+`show-me` and `visual-pr` come from [humanlayer/skills](https://github.com/humanlayer/skills) and live at `skills/humanlayer/<name>/`. Both run only when you invoke them by name:
+
+```bash
+npx skills add themusicman/grabbag --skill show-me
+npx skills add themusicman/grabbag --skill visual-pr
+```
+
 ### T3 Code
 
 T3 Code has no `-a` name in the skills CLI. It does not keep its own skill directory. It runs Codex, Claude Code, Cursor, Grok, and OpenCode, and those providers read their own directories.
@@ -152,6 +161,8 @@ npx skills add themusicman/grabbag -a codex
 | [wayfinder](skills/mattpocock/wayfinder) | [mattpocock/skills `skills/engineering/wayfinder`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/wayfinder) |
 | [wizard](skills/mattpocock/wizard) | [mattpocock/skills `skills/engineering/wizard`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/wizard) |
 | [writing-for-agents](skills/mattpocock/writing-for-agents) | [mattpocock/skills `skills/productivity/writing-for-agents`](https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/writing-for-agents) |
+| [show-me](skills/humanlayer/show-me) | [humanlayer/skills `plugins/show-me/skills/show-me`](https://github.com/humanlayer/skills/tree/4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329/plugins/show-me/skills/show-me) |
+| [visual-pr](skills/humanlayer/visual-pr) | [humanlayer/skills `plugins/visual-pr/skills/visual-pr`](https://github.com/humanlayer/skills/tree/4d69d20f6e9b57b4fcf0d501ccfb1be961f0f329/plugins/visual-pr/skills/visual-pr) |
 
 ## Agents
 
