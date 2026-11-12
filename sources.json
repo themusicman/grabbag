@@ -592,5 +592,284 @@
     "upstream_sha": "ce649c03ac3b75b6ae80cbd15b7e2c536caedb5a",
     "local_path": "skills/why",
     "modified": true
+  },
+  {
+    "name": "ask-matt",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/ask-matt",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/ask-matt",
+    "modified": true
+  },
+  {
+    "name": "code-review",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/code-review",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/code-review",
+    "modified": false
+  },
+  {
+    "name": "codebase-design",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/codebase-design",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/codebase-design",
+    "modified": false
+  },
+  {
+    "name": "diagnosing-bugs",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/diagnosing-bugs",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/diagnosing-bugs",
+    "modified": false
+  },
+  {
+    "name": "domain-modeling",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/domain-modeling",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/domain-modeling",
+    "modified": false
+  },
+  {
+    "name": "git-guardrails-claude-code",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/misc/git-guardrails-claude-code",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/git-guardrails-claude-code",
+    "modified": false
+  },
+  {
+    "name": "grill-me",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/productivity/grill-me",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/grill-me",
+    "modified": false
+  },
+  {
+    "name": "grill-with-docs",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/grill-with-docs",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/grill-with-docs",
+    "modified": false
+  },
+  {
+    "name": "grilling",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/productivity/grilling",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/grilling",
+    "modified": false
+  },
+  {
+    "name": "handoff",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/productivity/handoff",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/handoff",
+    "modified": false
+  },
+  {
+    "name": "implement",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/implement",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/implement",
+    "modified": true
+  },
+  {
+    "name": "implement-spec",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/implement-spec",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/implement-spec",
+    "modified": true
+  },
+  {
+    "name": "improve-codebase-architecture",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/improve-codebase-architecture",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/improve-codebase-architecture",
+    "modified": false
+  },
+  {
+    "name": "migrate-to-shoehorn",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/misc/migrate-to-shoehorn",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/migrate-to-shoehorn",
+    "modified": false
+  },
+  {
+    "name": "mp-tdd",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/tdd",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/mp-tdd",
+    "modified": true
+  },
+  {
+    "name": "mp-teach",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/productivity/teach",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/mp-teach",
+    "modified": true
+  },
+  {
+    "name": "pr",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/pr",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/pr",
+    "modified": false
+  },
+  {
+    "name": "prototype",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/prototype",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/prototype",
+    "modified": false
+  },
+  {
+    "name": "research",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/research",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/research",
+    "modified": false
+  },
+  {
+    "name": "retro",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/retro",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/retro",
+    "modified": false
+  },
+  {
+    "name": "scaffold-exercises",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/misc/scaffold-exercises",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/scaffold-exercises",
+    "modified": false
+  },
+  {
+    "name": "setup-matt-pocock-skills",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/setup-matt-pocock-skills",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/setup-matt-pocock-skills",
+    "modified": false
+  },
+  {
+    "name": "setup-pre-commit",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/misc/setup-pre-commit",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/setup-pre-commit",
+    "modified": false
+  },
+  {
+    "name": "to-questionnaire",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/productivity/to-questionnaire",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/to-questionnaire",
+    "modified": false
+  },
+  {
+    "name": "to-spec",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/to-spec",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/to-spec",
+    "modified": false
+  },
+  {
+    "name": "to-tickets",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/to-tickets",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/to-tickets",
+    "modified": false
+  },
+  {
+    "name": "triage",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/triage",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/triage",
+    "modified": false
+  },
+  {
+    "name": "wait-what",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/productivity/wait-what",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/wait-what",
+    "modified": false
+  },
+  {
+    "name": "wayfinder",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/wayfinder",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/wayfinder",
+    "modified": false
+  },
+  {
+    "name": "wizard",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/engineering/wizard",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/wizard",
+    "modified": false
+  },
+  {
+    "name": "writing-for-agents",
+    "kind": "skill",
+    "source_repo": "mattpocock/skills",
+    "source_path": "skills/productivity/writing-for-agents",
+    "upstream_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "local_path": "skills/mattpocock/writing-for-agents",
+    "modified": false
   }
 ]
